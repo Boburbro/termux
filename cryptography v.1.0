@@ -1,0 +1,22 @@
+#cryptography
+import base64
+import time 
+#shifr yechish
+time.sleep(1)
+print('=======Bobur bro========')
+time.sleep(0.2)
+while True:
+	print('=========v1.0===========')
+
+	a = input('    Menuni tanlang\n\n [1]  Matini shifrlash\n [2] Shifrlangan matnni yechish\n\n>>>')
+	if a == '1':
+		gap = input('So\'z kiriting\n>>>')
+		time.sleep(0.5)
+		gap2 = gap.encode('utf-8')
+		time.sleep(0.1)
+		gap3 = base64.b64encode(gap2,altchars= b'-:')
+		print(gap3)
+	elif a == '2':
+		gap = input('So\'z kiriting\n>>>')
+		time.sleep(0.6)
+		print(gap, base64.b64decode(gap))
