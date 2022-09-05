@@ -1,6 +1,6 @@
 import wikipedia
 while True:
-	til = input('Qidirayotgan narsangiz qaysi tilda chiqsin\nPS:UZ')
+	til = input('Qidirayotgan narsangiz qaysi tilda chiqsin\n    PS:UZ\n>>> ')
 	
 	wikipedia.set_lang(til)
 
