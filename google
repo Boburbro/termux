@@ -1,0 +1,11 @@
+import wikipedia
+while True:
+	til = input('Qidirayotgan narsangiz qaysi tilda chiqsin\nPS:UZ')
+	
+	wikipedia.set_lang(til)
+
+	print('Vikipedia qidiruviga hush kelibsiz\nNima qidirayabsiz yozing:\n\n')
+	a = input('>>>')
+	print('\n')
+	
+	print(wikipedia.summary(a))
