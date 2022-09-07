@@ -1,11 +1,15 @@
-import wikipedia
 while True:
-	til = input('Qidirayotgan narsangiz qaysi tilda chiqsin\n    PS:UZ\n>>> ')
+	try:
+		import wikipedia
+		while True: 
+			til = input('Qidirayotgan Narsangiz qaysi tilda chiqsin\nPS:UZ\n>>>')
+			wikipedia.set_lang(til)
+			print('Vikipedia qidiruviga hush kelibsiz\nNima qidirayabsiz yozing:\n\n')
+			a = input('>>>')
+			print('\n')
 	
-	wikipedia.set_lang(til)
-
-	print('Vikipedia qidiruviga hush kelibsiz\nNima qidirayabsiz yozing:\n\n')
-	a = input('>>>')
-	print('\n')
+			print(wikipedia.summary(a))
 	
-	print(wikipedia.summary(a))
+    # your code....
+	except Exception as e:
+  	  print(f"Xato buyruq berildi qayta urinib ko'ring\n\n")
