@@ -1,4 +1,5 @@
 # Qo'lanma
 # Yuklab olish
-bash
+'''bash
  $ git clone https://github.com/Boburbro/new-world 
+'''
