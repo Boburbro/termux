@@ -1,4 +1,7 @@
 #cryptography
+import os
+
+os.system("termux-open-url https://t.me/Boburbro_tg")
 import base64
 import time 
 #shifr yechish
