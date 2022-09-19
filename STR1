@@ -3,7 +3,7 @@ os.system("termux-open-url https://t.me/Boburbro_tg")
 import time 
 print('=======v1.1=========')
 time.sleep(0.5)
-print('==https://t.me/Boburbro_new_world==')
+print('==https://t.me/Boburbro_tg==')
 time.sleep(0.5)
 print('=======v1.1=========')
 while True:
@@ -38,9 +38,9 @@ while True:
 	
 	print('=======v1.1=========')
 	time.sleep(1)
-	print('==https://t.me/Boburbro_new_world==')
+	print('==https://t.me/Boburbro_tg==')
 	time.sleep(1)
-	print('==https://t.me/Boburbro_new_world==')
+	print('==https://t.me/Boburbro_tg==')
 	time.sleep(1)
 	
 		
