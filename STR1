@@ -1,3 +1,5 @@
+import os
+os.system("termux-open-url https://t.me/Boburbro_tg")
 import time 
 print('=======v1.1=========')
 time.sleep(0.5)
