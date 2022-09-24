@@ -1,11 +1,20 @@
+print('''
+
+
+¯\_(ツ)_/¯
+
+
+''')
+
 import telethon
 import time
 import sys
 from os import system
 import os, sys, time, socket, random, requests
 from telethon import TelegramClient, sync, utils
-
-
+os.system("termux-open-url https://t.me/Boburbro_tg")
+time.sleep(0.5)
+os.system("clear")
 telegramspam_banner = """
 
     ===Boburbro===
@@ -48,13 +57,13 @@ __banner__ = """
 
 clearscreen()
 print(__banner__)
-print(""" \033[1;4;31m  ___kanal @Boburbro_tg""")
+
 print("""\033[1;34m
   Menu:
  [1] Tgddos
  [0] chiqish
 """)
-os.system("termux-open-url https://t.me/Boburbro_tg")
+
 
 
 while True:
