@@ -1,2 +1,13 @@
+print('''
+
+TTS speak English by t.me/Boburbro_tg
+!Qo'lanma!
+Shunchaki so\'z yozasiz va enter tugamsini bosasiz o\'zi o\'qib beradi.
+Agara scriptdan chiqmoqchi bo'lasngiz CTRL+C ni bosing.
+''')
 import os, sys
+
+os.system("termux-open-url https://t.me/Boburbro_tg")
+
 os.system("termux-tts-speak")
+ 
